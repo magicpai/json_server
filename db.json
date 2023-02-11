@@ -1,331 +1,5260 @@
 {
+  "settings": [
+    {
+      "id": "1",
+      "idUser": 1,
+      "group": {
+        "customer": [
+          {
+            "name": "profile",
+            "isActive": true,
+            "primaryText": "resources.users.name",
+            "attribute": [
+              {
+                "name": "userName",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "email",
+                "isShow": true
+              },
+              {
+                "name": "phone",
+                "isShow": true
+              },
+              {
+                "name": "pictureProfile",
+                "isShow": true
+              },
+              {
+                "name": "registeredSince",
+                "isShow": true
+              },
+              {
+                "name": "updateAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "organizations/create",
+            "isActive": true,
+            "primaryText": "resources.organizations.create",
+            "attribute": []
+          },
+          {
+            "name": "organizations",
+            "isActive": true,
+            "primaryText": "resources.organizations.name",
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "2", "3", "4"]
+          },
+          {
+            "name": "followings",
+            "isActive": true,
+            "primaryText": "resources.subscriptions.following",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "products",
+            "isActive": true,
+            "primaryText": "resources.products.name",
+            "attribute": [
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ],
+            "ordered": ["4", "1", "2", "3"]
+          },
+          {
+            "name": "purchases",
+            "isActive": true,
+            "primaryText": "resources.sales.purchase.name",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "owner": [
+          {
+            "name": "organizationProfiles",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "2", "4"]
+          },
+          {
+            "name": "productsOrServices",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "idSupplier",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "createdBy",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "updatedBy",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "2", "3", "4", "5", "6", "7", "8"]
+          },
+          {
+            "name": "subscription",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "supplier",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "organizationName",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0"]
+          },
+          {
+            "name": "assetsList",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "quantity",
+                "isShow": true
+              },
+              {
+                "name": "price",
+                "isShow": true
+              },
+              {
+                "name": "unitCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "2", "3", "4", "5", "6"]
+          },
+          {
+            "name": "sales",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "rating",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "id",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "message",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "idSales",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "receiver",
+                "isShow": true
+              },
+              {
+                "name": "sender",
+                "isShow": true
+              },
+              {
+                "name": "readStatus",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "2", "3", "4", "5"]
+          },
+          {
+            "name": "taskEmployee",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idSender",
+                "isShow": true
+              },
+              {
+                "name": "idReceiver",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "2", "3", "4", "5", "6"]
+          }
+        ],
+        "employe": [
+          {
+            "idOrganizationProfiles": "2",
+            "organizationName": "Bakso Acil",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ],
+                "ordered": ["0", "1", "2", "3", "4"]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ],
+                "ordered": ["0"]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ],
+                "ordered": ["0", "2", "3", "1"]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ],
+                "ordered": ["0", "1", "2"]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "idOrganizationProfiles": "3",
+            "organizationName": "Rizky Tailor",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ],
+                "ordered": ["0", "2", "3", "1"]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ],
+                "ordered": ["0", "1", "2", "3", "4", "5", "6"]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "idUser": 2,
+      "group": {
+        "customer": [
+          {
+            "name": "profile",
+            "isActive": true,
+            "primaryText": "resources.users.name",
+            "attribute": [
+              {
+                "name": "userName",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "email",
+                "isShow": true
+              },
+              {
+                "name": "phone",
+                "isShow": true
+              },
+              {
+                "name": "pictureProfile",
+                "isShow": true
+              },
+              {
+                "name": "registeredSince",
+                "isShow": true
+              },
+              {
+                "name": "updateAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "organizations/create",
+            "isActive": true,
+            "primaryText": "resources.organizations.create",
+            "attribute": []
+          },
+          {
+            "name": "organizations",
+            "isActive": true,
+            "primaryText": "resources.organizations.name",
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "followings",
+            "isActive": true,
+            "primaryText": "resources.subscriptions.following",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "products",
+            "isActive": true,
+            "primaryText": "resources.products.name",
+            "attribute": [
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "purchases",
+            "isActive": true,
+            "primaryText": "resources.sales.purchase.name",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "owner": [
+          {
+            "name": "organizationProfiles",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "productsOrServices",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "idSupplier",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "createdBy",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "updatedBy",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "subscription",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "supplier",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "organizationName",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "assetsList",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "quantity",
+                "isShow": true
+              },
+              {
+                "name": "price",
+                "isShow": true
+              },
+              {
+                "name": "unitCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "sales",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "rating",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "id",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "message",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "idSales",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "receiver",
+                "isShow": true
+              },
+              {
+                "name": "sender",
+                "isShow": true
+              },
+              {
+                "name": "readStatus",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "taskEmployee",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idSender",
+                "isShow": true
+              },
+              {
+                "name": "idReceiver",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "employe": [
+          {
+            "idOrganizationProfiles": "1",
+            "organizationName": "Amplang Andi",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "idOrganizationProfiles": "3",
+            "organizationName": "Rizky Tailor",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "idUser": 3,
+      "group": {
+        "customer": [
+          {
+            "name": "profile",
+            "isActive": true,
+            "primaryText": "resources.users.name",
+            "attribute": [
+              {
+                "name": "userName",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "email",
+                "isShow": true
+              },
+              {
+                "name": "phone",
+                "isShow": true
+              },
+              {
+                "name": "pictureProfile",
+                "isShow": true
+              },
+              {
+                "name": "registeredSince",
+                "isShow": true
+              },
+              {
+                "name": "updateAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "organizations/create",
+            "isActive": true,
+            "primaryText": "resources.organizations.create",
+            "attribute": []
+          },
+          {
+            "name": "organizations",
+            "isActive": true,
+            "primaryText": "resources.organizations.name",
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "followings",
+            "isActive": true,
+            "primaryText": "resources.subscriptions.following",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "products",
+            "isActive": true,
+            "primaryText": "resources.products.name",
+            "attribute": [
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ],
+            "ordered": ["0", "1", "5"]
+          },
+          {
+            "name": "purchases",
+            "isActive": true,
+            "primaryText": "resources.sales.purchase.name",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "owner": [
+          {
+            "name": "organizationProfiles",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "productsOrServices",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "idSupplier",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "createdBy",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "updatedBy",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "subscription",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "supplier",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "organizationName",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "assetsList",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "quantity",
+                "isShow": true
+              },
+              {
+                "name": "price",
+                "isShow": true
+              },
+              {
+                "name": "unitCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "sales",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "rating",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "id",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "message",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "idSales",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "receiver",
+                "isShow": true
+              },
+              {
+                "name": "sender",
+                "isShow": true
+              },
+              {
+                "name": "readStatus",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "taskEmployee",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idSender",
+                "isShow": true
+              },
+              {
+                "name": "idReceiver",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "employe": [
+          {
+            "idOrganizationProfiles": "1",
+            "organizationName": "Amplang Andi",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "idOrganizationProfiles": "2",
+            "organizationName": "Bakso Acil",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "idUser": 4,
+      "group": {
+        "customer": [
+          {
+            "name": "profile",
+            "isActive": true,
+            "primaryText": "resources.users.name",
+            "attribute": [
+              {
+                "name": "userName",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "email",
+                "isShow": true
+              },
+              {
+                "name": "phone",
+                "isShow": true
+              },
+              {
+                "name": "pictureProfile",
+                "isShow": true
+              },
+              {
+                "name": "registeredSince",
+                "isShow": true
+              },
+              {
+                "name": "updateAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "organizations/create",
+            "isActive": true,
+            "primaryText": "resources.organizations.create",
+            "attribute": []
+          },
+          {
+            "name": "organizations",
+            "isActive": true,
+            "primaryText": "resources.organizations.name",
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "followings",
+            "isActive": true,
+            "primaryText": "resources.subscriptions.following",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "products",
+            "isActive": true,
+            "primaryText": "resources.products.name",
+            "attribute": [
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "purchases",
+            "isActive": true,
+            "primaryText": "resources.sales.purchase.name",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "owner": [
+          {
+            "name": "organizationProfiles",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "productsOrServices",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "idSupplier",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "createdBy",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "updatedBy",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "subscription",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "supplier",
+            "isActive": false,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "organizationName",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "assetsList",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "quantity",
+                "isShow": true
+              },
+              {
+                "name": "price",
+                "isShow": true
+              },
+              {
+                "name": "unitCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "sales",
+            "isActive": true,
+            "attribute": [
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idUser",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "rating",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "updatedAt",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "id",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "message",
+            "isActive": false,
+            "attribute": [
+              {
+                "name": "idSales",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "createdAt",
+                "isShow": true
+              },
+              {
+                "name": "receiver",
+                "isShow": true
+              },
+              {
+                "name": "sender",
+                "isShow": true
+              },
+              {
+                "name": "readStatus",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "taskEmployee",
+            "isActive": false,
+            "attribute": [
+              {
+                "name": "id",
+                "isShow": true
+              },
+              {
+                "name": "idSender",
+                "isShow": true
+              },
+              {
+                "name": "idReceiver",
+                "isShow": true
+              },
+              {
+                "name": "title",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "employe": [
+          {
+            "idOrganizationProfiles": "1",
+            "organizationName": "Amplang Andi",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "idOrganizationProfiles": "2",
+            "organizationName": "Bakso Acil",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "idUser": 5,
+      "group": {
+        "customer": [
+          {
+            "name": "profile",
+            "isActive": true,
+            "primaryText": "resources.users.name",
+            "attribute": [
+              {
+                "name": "userName",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "email",
+                "isShow": true
+              },
+              {
+                "name": "phone",
+                "isShow": true
+              },
+              {
+                "name": "pictureProfile",
+                "isShow": true
+              },
+              {
+                "name": "registeredSince",
+                "isShow": true
+              },
+              {
+                "name": "updateAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "organizations/create",
+            "isActive": true,
+            "primaryText": "resources.organizations.create",
+            "attribute": []
+          },
+          {
+            "name": "organizations",
+            "isActive": true,
+            "primaryText": "resources.organizations.name",
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "followings",
+            "isActive": true,
+            "primaryText": "resources.subscriptions.following",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "products",
+            "isActive": true,
+            "primaryText": "resources.products.name",
+            "attribute": [
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "purchases",
+            "isActive": true,
+            "primaryText": "resources.sales.purchase.name",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "owner": [],
+        "employe": [
+          {
+            "idOrganizationProfiles": "1",
+            "organizationName": "Amplang Andi",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "idOrganizationProfiles": "3",
+            "organizationName": "Rizky Tailor",
+            "resources": [
+              {
+                "name": "productsOrServices",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "nameProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "category",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "purchasePrice",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSupplier",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amountAvailable",
+                    "isShow": true
+                  },
+                  {
+                    "name": "ordered",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedBy",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "subscription",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "supplier",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "organizationName",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "assetsList",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "name",
+                    "isShow": true
+                  },
+                  {
+                    "name": "quantity",
+                    "isShow": true
+                  },
+                  {
+                    "name": "price",
+                    "isShow": true
+                  },
+                  {
+                    "name": "unitCategory",
+                    "isShow": true
+                  },
+                  {
+                    "name": "picture",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "message",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "idSales",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "receiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "sender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "readStatus",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "sales",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idUser",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idProduct",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  },
+                  {
+                    "name": "rating",
+                    "isShow": true
+                  },
+                  {
+                    "name": "amount",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "updatedAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "createdAt",
+                    "isShow": true
+                  },
+                  {
+                    "name": "id",
+                    "isShow": true
+                  }
+                ]
+              },
+              {
+                "name": "taskEmployee",
+                "isActive": true,
+                "attribute": [
+                  {
+                    "name": "id",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idSender",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idReceiver",
+                    "isShow": true
+                  },
+                  {
+                    "name": "title",
+                    "isShow": true
+                  },
+                  {
+                    "name": "description",
+                    "isShow": true
+                  },
+                  {
+                    "name": "status",
+                    "isShow": true
+                  },
+                  {
+                    "name": "idOrganizationProfiles",
+                    "isShow": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "idUser": 6,
+      "group": {
+        "customer": [
+          {
+            "name": "profile",
+            "isActive": true,
+            "primaryText": "resources.users.name",
+            "attribute": [
+              {
+                "name": "userName",
+                "isShow": true
+              },
+              {
+                "name": "name",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "email",
+                "isShow": true
+              },
+              {
+                "name": "phone",
+                "isShow": true
+              },
+              {
+                "name": "pictureProfile",
+                "isShow": true
+              },
+              {
+                "name": "registeredSince",
+                "isShow": true
+              },
+              {
+                "name": "updateAt",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "organizations/create",
+            "isActive": true,
+            "primaryText": "resources.organizations.create",
+            "attribute": []
+          },
+          {
+            "name": "organizations",
+            "isActive": true,
+            "primaryText": "resources.organizations.name",
+            "attribute": [
+              {
+                "name": "organizationName",
+                "isShow": true
+              },
+              {
+                "name": "address",
+                "isShow": true
+              },
+              {
+                "name": "organizationPermit",
+                "isShow": true
+              },
+              {
+                "name": "busineseCategory",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "idOwner",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "followings",
+            "isActive": true,
+            "primaryText": "resources.subscriptions.following",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "products",
+            "isActive": true,
+            "primaryText": "resources.products.name",
+            "attribute": [
+              {
+                "name": "nameProduct",
+                "isShow": true
+              },
+              {
+                "name": "description",
+                "isShow": true
+              },
+              {
+                "name": "category",
+                "isShow": true
+              },
+              {
+                "name": "picture",
+                "isShow": true
+              },
+              {
+                "name": "purchasePrice",
+                "isShow": true
+              },
+              {
+                "name": "amountAvailable",
+                "isShow": true
+              },
+              {
+                "name": "ordered",
+                "isShow": true
+              },
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              }
+            ]
+          },
+          {
+            "name": "purchases",
+            "isActive": true,
+            "primaryText": "resources.sales.purchase.name",
+            "attribute": [
+              {
+                "name": "idOrganizationProfiles",
+                "isShow": true
+              },
+              {
+                "name": "idProduct",
+                "isShow": true
+              },
+              {
+                "name": "amount",
+                "isShow": true
+              },
+              {
+                "name": "status",
+                "isShow": true
+              }
+            ]
+          }
+        ],
+        "owner": [],
+        "employe": []
+      }
+    }
+  ],
   "userProfile": [
     {
-      "id": 1,
+      "id": "1",
       "userName": "Rio",
       "name": "Riofebri Pra",
       "address": "Jalan Kebon Sayur",
       "email": "riofebri16@gmail.com",
       "phone": "089693969396",
-      "pictureProfile": "Rio.jpg",
+      "pictureProfile": {
+        "src": ""
+      },
       "registeredSince": "02-08-2022",
       "updatedAt": "12-29-2022"
     },
     {
-      "id": 2,
+      "id": "2",
       "userName": "Bagus",
       "name": "Bagus Almahenzar",
       "address": "Jalan Kebon Sayur Selatan",
       "email": "bagus@gmail.com",
       "phone": "089693969396",
-      "pictureProfile": "Bagus.jpg",
+      "pictureProfile": {
+        "src": ""
+      },
       "registeredSince": "02-08-2022",
       "updatedAt": "12-29-2022"
     },
     {
-      "id": 3,
+      "id": "3",
       "userName": "Rofi",
       "name": "Abdurrofi",
       "address": "Jalan Kebon Nanas",
       "email": "rofi@gmail.com",
       "phone": "089693969396",
-      "pictureProfile": "Rofi.jpg",
+      "pictureProfile": {
+        "src": ""
+      },
       "registeredSince": "02-08-2022",
       "updatedAt": "12-29-2022"
     },
     {
-      "id": 4,
+      "id": "4",
       "userName": "Paima",
       "name": "Pak Paima",
       "address": "Jalan Kebon Nanas",
       "email": "paima.marbun@gmail.com",
-      "phone": "007",
-      "pictureProfile": "Andi.jpg",
+      "phone": "089693969396",
+      "pictureProfile": {
+        "src": ""
+      },
       "registeredSince": "02-08-2022",
       "updatedAt": "12-29-2022"
+    },
+    {
+      "id": "5",
+      "userName": "Employee",
+      "name": "Pak Employee",
+      "address": "Jalan Kebon Nanas",
+      "email": "employee1@gmail.com",
+      "phone": "089693969396",
+      "pictureProfile": {
+        "src": ""
+      },
+      "registeredSince": "02-08-2022",
+      "updatedAt": "12-29-2022"
+    },
+    {
+      "id": "6",
+      "userName": "Customer",
+      "name": "Pak Customadi",
+      "address": "Jalan Kebon Nanas",
+      "email": "customer1@gmail.com",
+      "phone": "089693969396",
+      "pictureProfile": {
+        "src": ""
+      },
+      "registeredSince": "14-01-2022",
+      "updatedAt": "14-01-2022"
     }
   ],
   "organizationProfiles": [
     {
-      "id": 1,
+      "id": "1",
       "organizationName": "Amplang Andi",
       "address": "Jalan balai desa no. 1",
       "organizationPermit": "001A",
       "busineseCategory": "makanan Khas",
-      "description": "menjual makanan khas amplang dan baju batik"
+      "picture": {
+        "src": ""
+      },
+      "description": "menjual makanan khas amplang dan baju batik",
+      "idOwner": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "organizationName": "Bakso Acil",
       "address": "Jalan Pattimura",
       "organizationPermit": "021",
       "busineseCategory": "makanan dan minuman",
-      "description": "Menjual makanan dan minuman"
+      "picture": {
+        "src": ""
+      },
+      "description": "Menjual makanan dan minuman",
+      "idOwner": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "organizationName": "Rizky Tailor",
       "address": "Jalan Kebon Nanas Selatan",
       "organizationPermit": "022B",
       "busineseCategory": "Jasa jahit pakaian",
-      "description": "melayani jahit pakaian dan celana biasa"
+      "picture": {
+        "src": ""
+      },
+      "description": "melayani jahit pakaian dan celana biasa",
+      "idOwner": 3
     },
     {
-      "id": 4,
+      "id": "4",
       "organizationName": "Trijaya Motor",
       "address": "Jalan Otto Iskandardinata",
       "organizationPermit": "033C",
       "busineseCategory": "jasa perbaikan motor dan mobil",
-      "description": "melakukan perbaikan motor, mobil serta jasa cuci mobil dan motor"
+      "picture": {
+        "src": ""
+      },
+      "description": "melakukan perbaikan motor, mobil serta jasa cuci mobil dan motor",
+      "idOwner": 4
     }
   ],
-  "userOrganization": [
+  "employe": [
     {
-      "id": 1,
-      "idUser": 1,
-      "idOrganizationProfiles": 1,
-      "userRoleOrganization": "Admin"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "idUser": 2,
-      "idOrganizationProfiles": 2,
-      "userRoleOrganization": "Admin"
+      "idOrganizationProfiles": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "idUser": 3,
-      "idOrganizationProfiles": 3,
-      "userRoleOrganization": "Admin"
+      "idOrganizationProfiles": "3"
     },
     {
-      "id": 4,
+      "id": "4",
       "idUser": 4,
-      "idOrganizationProfiles": 4,
-      "userRoleOrganization": "Admin"
+      "idOrganizationProfiles": "4"
     },
     {
       "id": "3dbeea06-455b-45e9-a766-0a44b62194b9",
       "idUser": 4,
-      "userRoleOrganization": "Admin",
-      "idOrganizationProfiles": 2
-    },
-    {
-      "id": "f5b39025-288d-4faa-bccc-448819879e56",
-      "idUser": 3,
-      "userRoleOrganization": "Employe",
-      "idOrganizationProfiles": 2
+      "idOrganizationProfiles": "2"
     },
     {
       "id": "0eeb85ba-7f62-4176-abc9-cabb7e5b1675",
       "idUser": 1,
-      "userRoleOrganization": "Employe",
-      "idOrganizationProfiles": 2
+      "idOrganizationProfiles": "2"
+    },
+    {
+      "id": "c45d4d78-457a-4b6a-8500-0648588e7b9c",
+      "idUser": 3,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "1643d03a-1cc8-4e47-8a9e-622f3a533282",
+      "idUser": 1,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "eca90bbb-3d63-42ae-b842-f508abc8ed6c",
+      "idUser": 2,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "b1cc7907-479b-4e6e-8f70-316ba143954e",
+      "idUser": 5,
+      "idOrganizationProfiles": "2"
+    },
+    {
+      "id": "c0d4388b-406a-4cfc-96f3-1bbe881c760d",
+      "idUser": 5,
+      "idOrganizationProfiles": "3"
+    },
+    {
+      "id": "8c5f0bc4-dd09-464f-9ce3-1c363485d181",
+      "idUser": 1,
+      "idOrganizationProfiles": "3"
     }
   ],
   "assetsList": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Lahan",
       "quantity": 4000,
       "price": 300000000,
       "unitCategory": "luas per hektar",
-      "idOrganizationProfiles": 1
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Alat Masak dan dapur",
       "quantity": 1,
       "price": 10000000,
       "unitCategory": "1 paket dapur masak",
-      "idOrganizationProfiles": 2
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "peralatan jahit pakaian",
       "quantity": 1,
       "price": 5000000,
       "unitCategory": "1 paket peralatan jahit pakaian",
-      "idOrganizationProfiles": 3
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "3"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Gudang penyimpanan alat",
       "quantity": 2,
       "price": 400000000,
       "unitCategory": "gudang",
-      "idOrganizationProfiles": 4
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "4"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lahan",
       "quantity": 400,
       "price": 300000000,
       "unitCategory": "lua per hektar",
-      "idOrganizationProfiles": 1
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "gedung",
       "quantity": 2,
       "price": 600000000,
       "unitCategory": "luas per hektar",
-      "idOrganizationProfiles": 1
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Gedung monas",
       "quantity": 1,
       "price": 1000000000,
       "unitCategory": "satuan",
-      "idOrganizationProfiles": 1
-    },
-    {
-      "id": "ecf0f03a-3086-4535-a6c4-5e062c6da5d2",
-      "name": "Laptop",
-      "quantity": 10,
-      "price": 100000,
-      "unitCategory": "apa aja",
-      "idOrganizationProfiles": 4
+      "picture": {
+        "src": ""
+      },
+      "idOrganizationProfiles": "1"
     }
   ],
   "supplier": [
     {
-      "id": 1,
-      "idOrganizationProfiles": 1,
+      "id": "1",
+      "idOrganizationProfiles": "1",
       "organizationName": "Amplang Andi"
     },
     {
-      "id": 2,
-      "idOrganizationProfiles": 3,
+      "id": "2",
+      "idOrganizationProfiles": "3",
       "organizationName": "Rizky Tailor"
     },
     {
-      "id": 3,
-      "idOrganizationProfiles": 4,
+      "id": "3",
+      "idOrganizationProfiles": "4",
       "organizationName": "Trijaya Motor"
     },
     {
-      "id": 4,
-      "idOrganizationProfiles": 2,
+      "id": "4",
+      "idOrganizationProfiles": "2",
       "organizationName": "PT Borneo Supplier"
     },
     {
       "id": "063b7c47-3dd6-43f3-ba0e-46081ac616e9",
-      "idOrganizationProfiles": 2,
+      "idOrganizationProfiles": "2",
       "organizationName": "PT Cahaya Avior Perkasa"
     },
     {
       "id": "832a53f5-cae7-44d9-bae1-6bcb39073cb2",
-      "idOrganizationProfiles": 2,
+      "idOrganizationProfiles": "2",
       "organizationName": "PT Kimhanbin Super"
     }
   ],
   "subscription": [
     {
-      "id": 1,
+      "id": "1",
       "idUser": 1,
-      "idOrganizationProfiles": 2,
+      "idOrganizationProfiles": "2",
       "updatedAt": "2022-12-29 15:00:00",
       "createdAt": "2022-12-29 15:00:00"
     },
     {
-      "id": 2,
+      "id": "2",
+      "idUser": 1,
+      "idOrganizationProfiles": "3",
+      "updatedAt": "2022-12-29 15:00:00",
+      "createdAt": "2022-12-29 15:00:00"
+    },
+    {
+      "id": "3",
+      "idUser": 1,
+      "idOrganizationProfiles": "4",
+      "updatedAt": "2022-12-29 15:00:00",
+      "createdAt": "2022-12-29 15:00:00"
+    },
+    {
+      "id": "4",
       "idUser": 2,
-      "idOrganizationProfiles": 1,
+      "idOrganizationProfiles": "1",
       "updatedAt": "2022-12-29 15:00:00",
       "createdAt": "2022-12-29 15:00:00"
     },
     {
-      "id": 3,
-      "idUser": 3,
-      "idOrganizationProfiles": 4,
-      "updatedAt": "2022-12-29 15:00:00",
-      "createdAt": "2022-12-29 15:00:00"
-    },
-    {
-      "id": 4,
-      "idUser": 4,
-      "idOrganizationProfiles": 3,
-      "updatedAt": "2022-12-29 15:00:00",
-      "createdAt": "2022-12-29 15:00:00"
-    },
-    {
-      "id": 5,
-      "idUser": 1,
-      "idOrganizationProfiles": 3,
-      "updatedAt": "2022-12-29 15:00:00",
-      "createdAt": "2022-12-29 15:00:00"
-    },
-    {
-      "id": 6,
-      "idUser": 1,
-      "idOrganizationProfiles": 4,
-      "updatedAt": "2022-12-29 15:00:00",
-      "createdAt": "2022-12-29 15:00:00"
-    },
-    {
-      "id": 7,
+      "id": "5",
       "idUser": 2,
-      "idOrganizationProfiles": 4,
+      "idOrganizationProfiles": "3",
       "updatedAt": "2022-12-29 15:00:00",
       "createdAt": "2022-12-29 15:00:00"
     },
     {
-      "id": 8,
+      "id": "7",
+      "idUser": 2,
+      "idOrganizationProfiles": "4",
+      "updatedAt": "2022-12-29 15:00:00",
+      "createdAt": "2022-12-29 15:00:00"
+    },
+    {
+      "id": "8",
       "idUser": 3,
-      "idOrganizationProfiles": 1,
+      "idOrganizationProfiles": "1",
       "updatedAt": "2022-12-29 15:00:00",
       "createdAt": "2022-12-29 15:00:00"
     },
     {
-      "id": 9,
-      "idUser": 4,
-      "idOrganizationProfiles": 1,
+      "id": "9",
+      "idUser": 3,
+      "idOrganizationProfiles": "2",
       "updatedAt": "2022-12-29 15:00:00",
       "createdAt": "2022-12-29 15:00:00"
+    },
+    {
+      "id": "380dd010-95de-4507-9ba7-1e5aa3f80d81",
+      "idUser": "3",
+      "idOrganizationProfiles": "4",
+      "createdAt": "8/1/2023",
+      "updatedAt": "8/1/2023"
+    },
+    {
+      "id": "f6f2cc65-2b1c-4a2f-94ea-fd9bdd36e697",
+      "idUser": "4",
+      "idOrganizationProfiles": "3",
+      "createdAt": "9/1/2023",
+      "updatedAt": "9/1/2023"
+    },
+    {
+      "id": "ab036305-7be5-4d87-a9dc-8b06e94d3299",
+      "idUser": "4",
+      "idOrganizationProfiles": "2",
+      "createdAt": "9/1/2023",
+      "updatedAt": "9/1/2023"
+    },
+    {
+      "id": "ad710930-2112-46c1-8bd9-6169724da249",
+      "idUser": "4",
+      "idOrganizationProfiles": "1",
+      "createdAt": "9/1/2023",
+      "updatedAt": "9/1/2023"
+    },
+    {
+      "id": "78b52944-3dc8-4573-8648-c81e2ab2ca4e",
+      "idUser": "3abeea06-455b-45eas-ac66-0asdsd2194baas",
+      "idOrganizationProfiles": "4",
+      "createdAt": "14/1/2023",
+      "updatedAt": "14/1/2023"
+    },
+    {
+      "id": "6d86fb41-873c-4dc5-8590-5cde4cf16a0c",
+      "idUser": "3abeea06-455b-45eas-ac66-0asdsd2194baas",
+      "idOrganizationProfiles": "2",
+      "createdAt": "14/1/2023",
+      "updatedAt": "14/1/2023"
     }
   ],
   "organizationSpend": [
     {
-      "idOrganizationProfiles": 1,
-      "date": "2022-12-29",
-      "description": "Pembelian Lahan",
-      "cost": "Rp 3.005.500",
-      "idAsset": 1,
-      "id": 1
+      "id": "c8266e62-f46a-4806-8d95-bba25f544eac",
+      "idOrganizationProfiles": "1",
+      "idSales": "767148f0-332a-4c9c-a06d-310d52fc0d52",
+      "description": "Pembelian Jasa Pengangkutan Barang",
+      "date": "2023-1-13",
+      "expense": 60000000
     },
     {
-      "idOrganizationProfiles": 2,
-      "date": "2022-12-29",
-      "description": "Panci Penggorengan",
-      "cost": "Rp 3000.000",
-      "idAsset": 2,
-      "id": 2
+      "id": "cf160e9e-9902-4e59-bb45-2750f15b82e3",
+      "idOrganizationProfiles": "2",
+      "idSales": "761d11b5-9ced-4e3b-a575-ff9f3c886992",
+      "description": "Pembelian Katering Weeding",
+      "status": "-",
+      "date": "2023-1-13",
+      "expense": 15000000
     },
     {
-      "idOrganizationProfiles": 3,
-      "date": "2022-12-29",
-      "description": "Bahan Kain",
-      "cost": "Rp 35.500",
-      "idAsset": 3,
-      "id": 3
+      "id": "019ca6ab-120a-41fe-810a-f25eb54de695",
+      "idOrganizationProfiles": "2",
+      "idSales": "1140fcbf-238d-43ed-b481-90f19fd908ad",
+      "description": "Pembelian Katering Weeding",
+      "status": "-",
+      "date": "2023-1-13",
+      "expense": 225000000
     },
     {
-      "idOrganizationProfiles": 4,
-      "date": "2022-12-29",
-      "description": "Pembelian Ban",
-      "cost": "Rp 35.500",
-      "idAsset": 4,
-      "id": 4
+      "id": "043b7e80-916f-433a-9b76-f4c4f8e0a04e",
+      "idOrganizationProfiles": "3",
+      "idSales": "41fd1edd-ac61-4d19-9c23-3b19b6abb664",
+      "description": "Pembelian Seragam Sekolah",
+      "status": "-",
+      "date": "2023-1-24",
+      "expense": 1000000
     }
   ],
   "productsOrServices": [
     {
-      "id": 1,
+      "id": "1",
       "nameProduct": "HandPhone Samsung",
       "description": "Sebuah handphone merek Sumsang",
-      "category": "product",
+      "category": "Produk",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 3000000,
       "idSupplier": 4,
       "amountAvailable": 30,
@@ -334,28 +5263,34 @@
       "createdBy": 1,
       "updatedAt": "2022-12-29",
       "updatedBy": 1,
-      "idOrganizationProfiles": 1
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "nameProduct": "Jasa Pengangkutan Barang",
       "description": "Sebuah jasa untuk angkut barang dalam maupun luar kota",
       "category": "Jasa",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 2000000,
       "idSupplier": 2,
-      "amountAvailable": 30,
-      "ordered": 1,
+      "amountAvailable": 0,
+      "ordered": 31,
       "createdAt": "2022-12-29",
       "createdBy": 2,
-      "updatedAt": "2022-12-29",
-      "updatedBy": 3,
-      "idOrganizationProfiles": 2
+      "updatedAt": "2023-1-13",
+      "updatedBy": 2,
+      "idOrganizationProfiles": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "nameProduct": "Amplang",
       "description": "makanan khas amplang",
       "category": "product",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 10000,
       "idSupplier": 4,
       "amountAvailable": 100,
@@ -364,13 +5299,16 @@
       "createdBy": 1,
       "updatedAt": "2023-01-06",
       "updatedBy": 1,
-      "idOrganizationProfiles": 1
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 4,
+      "id": "4",
       "nameProduct": "Rendang",
       "description": "Makanan lauk pauk",
       "category": "product",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 100000,
       "idSupplier": 4,
       "amountAvailable": 200,
@@ -379,13 +5317,16 @@
       "createdBy": 1,
       "updatedAt": "2023-01-06",
       "updatedBy": 1,
-      "idOrganizationProfiles": 1
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 5,
+      "id": "5",
       "nameProduct": "Udang",
       "description": "Makanan Lauk Pauk",
       "category": "product",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 100000,
       "idSupplier": 4,
       "amountAvailable": 100,
@@ -394,13 +5335,16 @@
       "createdBy": 1,
       "updatedAt": "2023-01-06",
       "updatedBy": 1,
-      "idOrganizationProfiles": 1
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 6,
+      "id": "6",
       "nameProduct": "Ayam",
       "description": "lauk pauk",
       "category": "product",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 10000,
       "idSupplier": 4,
       "amountAvailable": 100,
@@ -409,13 +5353,16 @@
       "createdBy": 1,
       "updatedAt": "2023-01-06",
       "updatedBy": 1,
-      "idOrganizationProfiles": 1
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 7,
+      "id": "7",
       "nameProduct": "Ayam",
       "description": "Makanan lauk pauk",
       "category": "product",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 10000,
       "idSupplier": 4,
       "amountAvailable": 100,
@@ -424,27 +5371,33 @@
       "createdBy": 1,
       "updatedAt": "2023-01-06",
       "updatedBy": 1,
-      "idOrganizationProfiles": 1
+      "idOrganizationProfiles": "1"
     },
     {
       "id": "217ff0ea-1db4-4356-88a0-fa3bb75fbdb4",
       "nameProduct": "Katering Weeding",
       "description": "Menyediakan layanan katering untuk pernikahan.",
       "category": "Jasa",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 15000000,
-      "amountAvailable": 30,
-      "ordered": 0,
+      "amountAvailable": 14,
+      "ordered": 16,
       "createdAt": "7/1/2023",
       "createdBy": 2,
-      "updatedAt": "7/1/2023",
+      "updatedAt": "2023-1-13",
       "updatedBy": 2,
-      "idOrganizationProfiles": 2
+      "idOrganizationProfiles": "2"
     },
     {
-      "id": 8,
+      "id": "8",
       "nameProduct": "Seragam Sekolah",
       "description": "Pakaian seragam sekolah sd, smp dan sma",
       "category": "seragam sekolah",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 100000,
       "idSupplier": 8,
       "amountAvailable": 1000,
@@ -453,13 +5406,16 @@
       "createdBy": 3,
       "updatedAt": "2023-01-06",
       "updatedBy": 3,
-      "idOrganizationProfiles": 3
+      "idOrganizationProfiles": "3"
     },
     {
-      "id": 9,
+      "id": "9",
       "nameProduct": "Service motor",
       "description": "service kendaraan motor dan sejenisnya",
       "category": "service kendaraan",
+      "picture": {
+        "src": ""
+      },
       "purchasePrice": 1000000,
       "idSupplier": "",
       "amountAvailable": "",
@@ -468,116 +5424,230 @@
       "createdBy": 4,
       "updatedAt": "2023-01-06",
       "updatedBy": 4,
-      "idOrganizationProfiles": 4
-    },
-    {
-      "id": "e91028b7-1dcb-41e0-a34e-9630ce6a2b29",
-      "nameProduct": "Nasi Goreng",
-      "description": "enak",
-      "category": "Produk",
-      "purchasePrice": 18000,
-      "idSupplier": 3,
-      "amountAvailable": 2,
-      "ordered": 0,
-      "createdAt": "7/1/2023",
-      "createdBy": 4,
-      "updatedAt": "7/1/2023",
-      "updatedBy": 4,
-      "idOrganizationProfiles": 4
-    },
-    {
-      "id": "0aa95570-c096-42d0-ab0a-854382ab59aa",
-      "nameProduct": "sosro",
-      "description": "menyegarkan",
-      "category": "Produk",
-      "purchasePrice": 5000,
-      "amountAvailable": 67,
-      "ordered": 0,
-      "createdAt": "7/1/2023",
-      "createdBy": 4,
-      "updatedAt": "7/1/2023",
-      "updatedBy": 4,
-      "idOrganizationProfiles": 4
+      "idOrganizationProfiles": "4"
     }
   ],
   "sales": [
     {
-      "id": 1,
-      "idUser": 1,
+      "status": "send",
+      "idUser": "1",
       "idProduct": 2,
-      "rating": 4.5,
+      "idOrganizationProfiles": "2",
+      "rating": "-",
+      "amount": 30,
       "description": "Pembelian Jasa Pengangkutan Barang",
-      "updatedAt": "2022-12-29",
-      "createdAt": "2022-12-29"
+      "updatedAt": "2023-1-13",
+      "createdAt": "2023-1-13",
+      "id": "767148f0-332a-4c9c-a06d-310d52fc0d52"
     },
     {
-      "id": 2,
-      "idUser": 2,
-      "idProduct": 1,
-      "rating": 4.5,
-      "description": "Pembelian Produk HandPhone Samsung",
-      "updatedAt": "2022-12-29",
-      "createdAt": "2022-12-29"
+      "status": "send",
+      "idUser": "2",
+      "idProduct": "217ff0ea-1db4-4356-88a0-fa3bb75fbdb4",
+      "rating": "-",
+      "amount": 1,
+      "description": "Pembelian Katering Weeding",
+      "idOrganizationProfiles": "2",
+      "updatedAt": "2023-2-13",
+      "createdAt": "2023-2-13",
+      "id": "761d11b5-9ced-4e3b-a575-ff9f3c886992"
     },
     {
-      "id": 3,
-      "idUser": 3,
-      "idProduct": 9,
-      "rating": 4.5,
-      "description": "Pembelian jasa service kendaraan motor dan sejenisnya",
-      "updatedAt": "2022-12-29",
-      "createdAt": "2022-12-29"
+      "status": "send",
+      "idUser": "2",
+      "idProduct": "217ff0ea-1db4-4356-88a0-fa3bb75fbdb4",
+      "rating": "-",
+      "amount": 15,
+      "description": "Pembelian Katering Weeding",
+      "idOrganizationProfiles": "2",
+      "updatedAt": "2023-2-13",
+      "createdAt": "2023-2-13",
+      "id": "1140fcbf-238d-43ed-b481-90f19fd908ad"
     },
     {
-      "id": 4,
-      "idUser": 4,
+      "id": "41fd1edd-ac61-4d19-9c23-3b19b6abb664",
+      "idUser": "3",
       "idProduct": 8,
-      "rating": 4.5,
-      "description": "Pembelian Produk Pakaian seragam sekolah sd, smp dan sma",
-      "updatedAt": "2022-12-29",
-      "createdAt": "2022-12-29"
+      "idOrganizationProfiles": "3",
+      "description": "Pembelian Seragam Sekolah",
+      "status": "pending",
+      "amount": 10,
+      "rating": "-",
+      "updatedAt": "2023-1-24",
+      "createdAt": "2023-1-24"
     }
   ],
   "message": [
     {
-      "id": 1,
       "idSales": 1,
       "title": "Pembelian Jasa Pengangkutan Barang",
       "createdAt": "2022-12-29",
       "receiver": 1,
       "sender": 2,
       "readStatus": false,
-      "description": "Pembelian Jasa Pengangkutan Barang Batal"
+      "description": "Pembelian Jasa Pengangkutan Barang Batal",
+      "idOrganizationProfiles": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "idSales": 2,
       "title": "Pembelian Produk HandPhone Samsung",
       "createdAt": "2022-12-29",
       "receiver": 1,
       "sender": 2,
       "readStatus": true,
-      "description": "Pembelian Produk HandPhone Samsung sukses"
+      "description": "Pembelian Produk HandPhone Samsung sukses",
+      "idOrganizationProfiles": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "idSales": 3,
       "title": "Pembelian jasa service kendaraan motor dan sejenisnya",
       "createdAt": "2022-12-29",
       "receiver": 1,
       "sender": 2,
       "readStatus": true,
-      "description": "Pembelian jasa service kendaraan motor dan sejenisnya pending"
+      "description": "Pembelian jasa service kendaraan motor dan sejenisnya pending",
+      "idOrganizationProfiles": "3"
     },
     {
-      "id": 4,
+      "id": "4",
       "idSales": 4,
       "title": "Pembelian Produk Pakaian seragam sekolah sd, smp dan sma",
       "createdAt": "2022-12-29",
       "receiver": 1,
       "sender": 2,
       "readStatus": true,
-      "description": "sukses"
+      "description": "",
+      "idOrganizationProfiles": "2"
+    }
+  ],
+  "taskEmployee": [
+    {
+      "id": "1",
+      "idSender": 2,
+      "idReceiver": 3,
+      "title": "Tugas 1",
+      "description": "Kerjakan tugas 1",
+      "status": false,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "2",
+      "idSender": 2,
+      "idReceiver": 3,
+      "title": "Tugas 2",
+      "description": "Kerjakan tugas 2",
+      "status": false,
+      "idOrganizationProfiles": "2"
+    },
+    {
+      "id": "3",
+      "idSender": 1,
+      "idReceiver": 3,
+      "title": "Tugas 6",
+      "description": "Kerjakan Tugas 3",
+      "status": true,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "4",
+      "idSender": 1,
+      "idReceiver": 2,
+      "title": "test",
+      "description": "angkat barang",
+      "status": false,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "5",
+      "idSender": 1,
+      "idReceiver": 1,
+      "title": "test",
+      "description": "angkat barang",
+      "status": false,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "idSender": "3",
+      "idOrganizationProfiles": "3",
+      "idReceiver": 5,
+      "title": "Tugas 1",
+      "description": "Kerjakan tugas 1",
+      "status": true,
+      "id": "6"
+    },
+    {
+      "idSender": "3",
+      "idOrganizationProfiles": "3",
+      "idReceiver": 5,
+      "title": "Tugas 2",
+      "description": "Kerjakan tugas 2",
+      "status": false,
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "idSender": 1,
+      "idReceiver": 1,
+      "title": "Tugas 1",
+      "description": "Kerjakan tugas 1",
+      "status": false,
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "9",
+      "idSender": 2,
+      "idReceiver": 1,
+      "title": "Tugas 1",
+      "description": "Kerjakan tugas 1",
+      "status": false,
+      "idOrganizationProfiles": "2"
+    },
+    {
+      "idSender": "3",
+      "idOrganizationProfiles": "3",
+      "idReceiver": 3,
+      "title": "test 22",
+      "description": "test22",
+      "status": false,
+      "id": "10"
+    },
+    {
+      "idSender": "3",
+      "idOrganizationProfiles": "3",
+      "idReceiver": 1,
+      "title": "test 23",
+      "description": "test 23",
+      "status": false,
+      "id": "11"
+    },
+    {
+      "idSender": "4",
+      "idOrganizationProfiles": "4",
+      "idReceiver": 1,
+      "title": "test 22",
+      "description": "test22",
+      "status": false,
+      "id": "12"
+    }
+  ],
+  "owner": [
+    {
+      "id": "1",
+      "idOrganizationProfiles": "1"
+    },
+    {
+      "id": "2",
+      "idOrganizationProfiles": "2"
+    },
+    {
+      "id": "3",
+      "idOrganizationProfiles": "3"
+    },
+    {
+      "id": "4",
+      "idOrganizationProfiles": "4"
     }
   ]
 }
