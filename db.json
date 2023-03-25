@@ -84,12 +84,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "2",
-              "3",
-              "4"
-            ]
+            "ordered": ["0", "2", "3", "4"]
           },
           {
             "name": "followings",
@@ -140,12 +135,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "4",
-              "1",
-              "2",
-              "3"
-            ]
+            "ordered": ["4", "1", "2", "3"]
           },
           {
             "name": "purchases",
@@ -205,11 +195,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "2",
-              "4"
-            ]
+            "ordered": ["0", "2", "4"]
           },
           {
             "name": "productsOrServices",
@@ -272,16 +258,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6",
-              "7",
-              "8"
-            ]
+            "ordered": ["0", "2", "3", "4", "5", "6", "7", "8"]
           },
           {
             "name": "subscription",
@@ -326,9 +303,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0"
-            ]
+            "ordered": ["0"]
           },
           {
             "name": "assetsList",
@@ -363,14 +338,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6"
-            ]
+            "ordered": ["0", "2", "3", "4", "5", "6"]
           },
           {
             "name": "sales",
@@ -455,13 +423,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "2",
-              "3",
-              "4",
-              "5"
-            ]
+            "ordered": ["0", "2", "3", "4", "5"]
           },
           {
             "name": "taskEmployee",
@@ -496,14 +458,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6"
-            ]
+            "ordered": ["0", "2", "3", "4", "5", "6"]
           }
         ],
         "employe": [
@@ -572,13 +527,7 @@
                     "isShow": true
                   }
                 ],
-                "ordered": [
-                  "0",
-                  "1",
-                  "2",
-                  "3",
-                  "4"
-                ]
+                "ordered": ["0", "1", "2", "3", "4"]
               },
               {
                 "name": "subscription",
@@ -623,9 +572,7 @@
                     "isShow": true
                   }
                 ],
-                "ordered": [
-                  "0"
-                ]
+                "ordered": ["0"]
               },
               {
                 "name": "assetsList",
@@ -660,12 +607,7 @@
                     "isShow": true
                   }
                 ],
-                "ordered": [
-                  "0",
-                  "2",
-                  "3",
-                  "1"
-                ]
+                "ordered": ["0", "2", "3", "1"]
               },
               {
                 "name": "message",
@@ -750,11 +692,7 @@
                     "isShow": true
                   }
                 ],
-                "ordered": [
-                  "0",
-                  "1",
-                  "2"
-                ]
+                "ordered": ["0", "1", "2"]
               },
               {
                 "name": "taskEmployee",
@@ -935,12 +873,7 @@
                     "isShow": true
                   }
                 ],
-                "ordered": [
-                  "0",
-                  "2",
-                  "3",
-                  "1"
-                ]
+                "ordered": ["0", "2", "3", "1"]
               },
               {
                 "name": "message",
@@ -1025,15 +958,7 @@
                     "isShow": true
                   }
                 ],
-                "ordered": [
-                  "0",
-                  "1",
-                  "2",
-                  "3",
-                  "4",
-                  "5",
-                  "6"
-                ]
+                "ordered": ["0", "1", "2", "3", "4", "5", "6"]
               },
               {
                 "name": "taskEmployee",
@@ -2193,11 +2118,7 @@
                 "isShow": true
               }
             ],
-            "ordered": [
-              "0",
-              "1",
-              "5"
-            ]
+            "ordered": ["0", "1", "5"]
           },
           {
             "name": "purchases",
