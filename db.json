@@ -84,7 +84,12 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "2", "3", "4"]
+            "ordered": [
+              "0",
+              "2",
+              "3",
+              "4"
+            ]
           },
           {
             "name": "followings",
@@ -135,7 +140,12 @@
                 "isShow": true
               }
             ],
-            "ordered": ["4", "1", "2", "3"]
+            "ordered": [
+              "4",
+              "1",
+              "2",
+              "3"
+            ]
           },
           {
             "name": "purchases",
@@ -195,7 +205,11 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "2", "4"]
+            "ordered": [
+              "0",
+              "2",
+              "4"
+            ]
           },
           {
             "name": "productsOrServices",
@@ -258,7 +272,16 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "2", "3", "4", "5", "6", "7", "8"]
+            "ordered": [
+              "0",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8"
+            ]
           },
           {
             "name": "subscription",
@@ -303,7 +326,9 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0"]
+            "ordered": [
+              "0"
+            ]
           },
           {
             "name": "assetsList",
@@ -338,7 +363,14 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "2", "3", "4", "5", "6"]
+            "ordered": [
+              "0",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ]
           },
           {
             "name": "sales",
@@ -423,7 +455,13 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "2", "3", "4", "5"]
+            "ordered": [
+              "0",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
           },
           {
             "name": "taskEmployee",
@@ -458,7 +496,14 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "2", "3", "4", "5", "6"]
+            "ordered": [
+              "0",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ]
           }
         ],
         "employe": [
@@ -527,7 +572,13 @@
                     "isShow": true
                   }
                 ],
-                "ordered": ["0", "1", "2", "3", "4"]
+                "ordered": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ]
               },
               {
                 "name": "subscription",
@@ -572,7 +623,9 @@
                     "isShow": true
                   }
                 ],
-                "ordered": ["0"]
+                "ordered": [
+                  "0"
+                ]
               },
               {
                 "name": "assetsList",
@@ -607,7 +660,12 @@
                     "isShow": true
                   }
                 ],
-                "ordered": ["0", "2", "3", "1"]
+                "ordered": [
+                  "0",
+                  "2",
+                  "3",
+                  "1"
+                ]
               },
               {
                 "name": "message",
@@ -692,7 +750,11 @@
                     "isShow": true
                   }
                 ],
-                "ordered": ["0", "1", "2"]
+                "ordered": [
+                  "0",
+                  "1",
+                  "2"
+                ]
               },
               {
                 "name": "taskEmployee",
@@ -873,7 +935,12 @@
                     "isShow": true
                   }
                 ],
-                "ordered": ["0", "2", "3", "1"]
+                "ordered": [
+                  "0",
+                  "2",
+                  "3",
+                  "1"
+                ]
               },
               {
                 "name": "message",
@@ -958,7 +1025,15 @@
                     "isShow": true
                   }
                 ],
-                "ordered": ["0", "1", "2", "3", "4", "5", "6"]
+                "ordered": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ]
               },
               {
                 "name": "taskEmployee",
@@ -2118,7 +2193,11 @@
                 "isShow": true
               }
             ],
-            "ordered": ["0", "1", "5"]
+            "ordered": [
+              "0",
+              "1",
+              "5"
+            ]
           },
           {
             "name": "purchases",
@@ -4816,53 +4895,77 @@
       "id": "1",
       "userName": "Rio",
       "name": "Riofebri Pra",
-      "address": "Jalan Kebon Sayur",
       "email": "riofebri16@gmail.com",
       "phone": "089693969396",
       "pictureProfile": {
         "src": ""
       },
       "registeredSince": "02-08-2022",
-      "updatedAt": "12-29-2022"
+      "updatedAt": "12-29-2022",
+      "completeAddress": {
+        "address": "Jalan Kebon Sayur",
+        "coordinate": {
+          "lat": null,
+          "lng": null
+        }
+      }
     },
     {
-      "id": "2",
       "userName": "Bagus",
       "name": "Bagus Almahenzar",
-      "address": "Jalan Kebon Sayur Selatan",
-      "email": "bagus@gmail.com",
-      "phone": "089693969396",
-      "pictureProfile": {
-        "src": ""
+      "completeAddress": {
+        "address": "Singkawang, Singkawang City, West Kalimantan, Indonesia",
+        "coordinate": {
+          "lat": 0.9060204000000001,
+          "lng": 108.9872049
+        }
       },
+      "email": "bagus@gmail.com",
+      "phone": "0896939693960",
+      "pictureProfile": {
+        "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/user_2/picture_profile/3a3473fc4f0036c00058f72d76db4012"
+      },
+      "updatedAt": "18/3/2023",
       "registeredSince": "02-08-2022",
-      "updatedAt": "12-29-2022"
+      "id": "2"
     },
     {
       "id": "3",
       "userName": "Rofi",
       "name": "Abdurrofi",
-      "address": "Jalan Kebon Nanas",
       "email": "rofi@gmail.com",
       "phone": "089693969396",
       "pictureProfile": {
         "src": ""
       },
       "registeredSince": "02-08-2022",
-      "updatedAt": "12-29-2022"
+      "updatedAt": "12-29-2022",
+      "completeAddress": {
+        "address": "Jalan Kebon Nanas",
+        "coordinate": {
+          "lat": null,
+          "lng": null
+        }
+      }
     },
     {
       "id": "4",
       "userName": "Paima",
       "name": "Pak Paima",
-      "address": "Jalan Kebon Nanas",
       "email": "paima.marbun@gmail.com",
       "phone": "089693969396",
       "pictureProfile": {
         "src": ""
       },
       "registeredSince": "02-08-2022",
-      "updatedAt": "12-29-2022"
+      "updatedAt": "12-29-2022",
+      "completeAddress": {
+        "address": "Jalan Kebon Nanas",
+        "coordinate": {
+          "lat": null,
+          "lng": null
+        }
+      }
     },
     {
       "id": "5",
@@ -4902,19 +5005,42 @@
         "src": ""
       },
       "description": "menjual makanan khas amplang dan baju batik",
-      "idOwner": 1
+      "idOwner": 1,
+      "completeAddress": {
+        "province": "",
+        "city": "",
+        "district": "",
+        "subDistrict": "",
+        "address": "",
+        "gmapsLink": "",
+        "coordinate": {
+          "lat": null,
+          "lng": null
+        }
+      }
     },
     {
-      "id": "2",
       "organizationName": "Bakso Acil",
-      "address": "Jalan Pattimura",
       "organizationPermit": "021",
       "busineseCategory": "makanan dan minuman",
-      "picture": {
-        "src": ""
-      },
       "description": "Menjual makanan dan minuman",
-      "idOwner": 2
+      "idOwner": 2,
+      "picture": {
+        "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/organization_2/picture_profile/71d74a43e035e17906a0f3214760db59"
+      },
+      "completeAddress": {
+        "province": "DKI Jakarta",
+        "city": "Jakarta Timur",
+        "district": "Jatinegara",
+        "subDistrict": "Bidara Cina",
+        "address": "Lenteng Agung, South Jakarta City, Jakarta, Indonesia",
+        "gmapsLink": "https://maps.google.com/?q=Lenteng Agung, South Jakarta City, Jakarta, Indonesia",
+        "coordinate": {
+          "lat": -6.325502999999999,
+          "lng": 106.8341101
+        }
+      },
+      "id": "2"
     },
     {
       "id": "3",
@@ -4926,7 +5052,19 @@
         "src": ""
       },
       "description": "melayani jahit pakaian dan celana biasa",
-      "idOwner": 3
+      "idOwner": 3,
+      "completeAddress": {
+        "province": "",
+        "city": "",
+        "district": "",
+        "subDistrict": "",
+        "address": "",
+        "gmapsLink": "",
+        "coordinate": {
+          "lat": null,
+          "lng": null
+        }
+      }
     },
     {
       "id": "4",
@@ -4938,7 +5076,19 @@
         "src": ""
       },
       "description": "melakukan perbaikan motor, mobil serta jasa cuci mobil dan motor",
-      "idOwner": 4
+      "idOwner": 4,
+      "completeAddress": {
+        "province": "",
+        "city": "",
+        "district": "",
+        "subDistrict": "",
+        "address": "",
+        "gmapsLink": "",
+        "coordinate": {
+          "lat": null,
+          "lng": null
+        }
+      }
     }
   ],
   "employe": [
@@ -5253,7 +5403,22 @@
       "description": "Sebuah handphone merek Sumsang",
       "category": "Produk",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 3000000,
       "idSupplier": 4,
@@ -5266,22 +5431,37 @@
       "idOrganizationProfiles": "1"
     },
     {
-      "id": "2",
+      "idOrganizationProfiles": "2",
       "nameProduct": "Jasa Pengangkutan Barang",
       "description": "Sebuah jasa untuk angkut barang dalam maupun luar kota",
       "category": "Jasa",
-      "picture": {
-        "src": ""
-      },
       "purchasePrice": 2000000,
       "idSupplier": 2,
       "amountAvailable": 0,
       "ordered": 31,
       "createdAt": "2022-12-29",
       "createdBy": 2,
-      "updatedAt": "2023-1-13",
-      "updatedBy": 2,
-      "idOrganizationProfiles": "2"
+      "updatedAt": "2023-2-12",
+      "updatedBy": "2",
+      "picture": {
+        "first": {
+          "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/organization_2/products/2/bad268abfec5705b4a8a4c7f08472814",
+          "image_title": "First Image"
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
+      },
+      "id": "2"
     },
     {
       "id": "3",
@@ -5289,7 +5469,22 @@
       "description": "makanan khas amplang",
       "category": "product",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 10000,
       "idSupplier": 4,
@@ -5307,7 +5502,22 @@
       "description": "Makanan lauk pauk",
       "category": "product",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 100000,
       "idSupplier": 4,
@@ -5325,7 +5535,22 @@
       "description": "Makanan Lauk Pauk",
       "category": "product",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 100000,
       "idSupplier": 4,
@@ -5343,7 +5568,22 @@
       "description": "lauk pauk",
       "category": "product",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 10000,
       "idSupplier": 4,
@@ -5361,7 +5601,22 @@
       "description": "Makanan lauk pauk",
       "category": "product",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 10000,
       "idSupplier": 4,
@@ -5379,7 +5634,22 @@
       "description": "Menyediakan layanan katering untuk pernikahan.",
       "category": "Jasa",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 15000000,
       "amountAvailable": 14,
@@ -5396,7 +5666,22 @@
       "description": "Pakaian seragam sekolah sd, smp dan sma",
       "category": "seragam sekolah",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 100000,
       "idSupplier": 8,
@@ -5414,7 +5699,22 @@
       "description": "service kendaraan motor dan sejenisnya",
       "category": "service kendaraan",
       "picture": {
-        "src": ""
+        "first": {
+          "src": "",
+          "image_title": ""
+        },
+        "second": {
+          "src": "",
+          "image_title": ""
+        },
+        "third": {
+          "src": "",
+          "image_title": ""
+        },
+        "fourth": {
+          "src": "",
+          "image_title": ""
+        }
       },
       "purchasePrice": 1000000,
       "idSupplier": "",
@@ -5425,6 +5725,38 @@
       "updatedAt": "2023-01-06",
       "updatedBy": 4,
       "idOrganizationProfiles": "4"
+    },
+    {
+      "id": "3d93c200-a069-46c5-8573-1ac105d5d12b",
+      "nameProduct": "Keyboard",
+      "description": "Menyediakan Keyboard",
+      "category": "Produk",
+      "purchasePrice": 350000,
+      "amountAvailable": 30,
+      "ordered": 0,
+      "createdAt": "2023-2-12",
+      "createdBy": "2",
+      "updatedAt": "2023-2-12",
+      "updatedBy": "2",
+      "idOrganizationProfiles": "2",
+      "picture": {
+        "first": {
+          "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/organization_2/products/3d93c200-a069-46c5-8573-1ac105d5d12b/cc6b8171787d809595cedd7a1cda217c",
+          "image_title": "First Image"
+        },
+        "second": {
+          "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/organization_2/products/3d93c200-a069-46c5-8573-1ac105d5d12b/c7c68b62fe6de21e1c6926a2656e896e",
+          "image_title": "Second Image"
+        },
+        "third": {
+          "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/organization_2/products/3d93c200-a069-46c5-8573-1ac105d5d12b/5b12b425bfe8b4c5ad9bd43ad5a2d0e7",
+          "image_title": "Third Image"
+        },
+        "fourth": {
+          "src": "https://umkm-direct-upload-to-s3.s3.ap-southeast-3.amazonaws.com/organization_2/products/3d93c200-a069-46c5-8573-1ac105d5d12b/af2f5bb62b5a64944f11132cc4d406ac",
+          "image_title": "Fourth Image"
+        }
+      }
     }
   ],
   "sales": [
