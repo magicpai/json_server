@@ -5907,5 +5907,19 @@
       "id": "4",
       "idOrganizationProfiles": "4"
     }
+  ],
+  "appointment": [
+    {
+      "id": 1,
+      "title": "Appointment 1",
+      "idOrganizationProfiles": 3,
+      "datetime": "2023-09-20"
+    },
+    {
+      "idOrganizationProfiles": "4",
+      "id": "c2336fb1-fe7e-4a6b-96aa-e7ae8d7e4d78",
+      "title": "Appointment 2",
+      "datetime": "2023-09-21T08:50:00.000Z"
+    }
   ]
 }
