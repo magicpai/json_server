@@ -5912,25 +5912,17 @@
     {
       "id": 1,
       "title": "Appointment 1",
-      "start": "2023-09-22T08:00:00.000Z",
-      "end": "2023-09-22T09:30:00.000Z",
-      "idOrganizationProfiles": 3,
+      "start": "2023-09-22T12:00:00.000Z",
+      "end": "2023-09-22T15:30:00.000Z",
+      "idOrganizationProfiles": 4,
       "idUserProfile": 3
     },
     {
       "id": "c2336fb1-fe7e-4a6b-96aa-e7ae8d7e4d78",
       "title": "Appointment 2",
-      "start": "2023-09-24T08:00:00.000Z",
-      "end": "2023-09-24T09:30:00.000Z",
-      "idOrganizationProfiles": "3",
-      "idUserProfile": 3
-    },
-    {
-      "id": "c2336fb1-fe7e-4a6b-96aa-e7ae8d7e4d78",
-      "title": "Appointment 3",
-      "start": "2023-09-24T08:00:00.000Z",
-      "end": "2023-09-24T09:30:00.000Z",
-      "idOrganizationProfiles": "3",
+      "start": "2023-09-24T13:00:00.000Z",
+      "end": "2023-09-24T16:30:00.000Z",
+      "idOrganizationProfiles": 1,
       "idUserProfile": 3
     }
   ]
