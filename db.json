@@ -4924,7 +4924,7 @@
     {
       "id": "1",
       "organizationName": "Amplang Andi",
-      "address": "Jalan balai desa no. 1",
+      "address": "Q637+CJ6, Semayap, Kec. Pulau Laut Utara, Kab. Kotabaru, Kalimantan Selatan 72113",
       "organizationPermit": "001A",
       "busineseCategory": "makanan Khas",
       "picture": {
@@ -4938,10 +4938,10 @@
         "district": "",
         "subDistrict": "",
         "address": "",
-        "gmapsLink": "",
+        "gmapsLink": "https://maps.app.goo.gl/APSYVmuUuyjw1bUN8",
         "coordinate": {
-          "lat": null,
-          "lng": null
+          "lat": -2.964850620923697,
+          "lng": 116.29310084723078
         }
       }
     },
@@ -4971,7 +4971,7 @@
     {
       "id": "3",
       "organizationName": "Rizky Tailor",
-      "address": "Jalan Kebon Nanas Selatan",
+      "address": "Jl. Kebun Sayur No.3, RT.3/RW.15, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330",
       "organizationPermit": "022B",
       "busineseCategory": "Jasa jahit pakaian",
       "picture": {
@@ -4985,17 +4985,17 @@
         "district": "",
         "subDistrict": "",
         "address": "",
-        "gmapsLink": "",
+        "gmapsLink": "https://maps.app.goo.gl/HzT6mYad89p1kX9g7",
         "coordinate": {
-          "lat": null,
-          "lng": null
+          "lat": -6.230554252705422, 
+          "lng": 106.86663658961278
         }
       }
     },
     {
       "id": "4",
       "organizationName": "Trijaya Motor",
-      "address": "Jalan Otto Iskandardinata",
+      "address": "Jl. Asem No.3, RT.10/RW.2, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330",
       "organizationPermit": "033C",
       "busineseCategory": "jasa perbaikan motor dan mobil",
       "picture": {
@@ -5009,10 +5009,10 @@
         "district": "",
         "subDistrict": "",
         "address": "",
-        "gmapsLink": "",
+        "gmapsLink": "https://maps.app.goo.gl/VM5x9nggDNaouELv9",
         "coordinate": {
-          "lat": null,
-          "lng": null
+          "lat": -6.228834258064662, 
+          "lng": 106.86662261933792
         }
       }
     }
